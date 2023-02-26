@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTML 정리 노트</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <ol>
+        <li><a href = "1.html">HTML</a></li>
+        <li><a href = "2.html">CSS</a></li>
+        <li><a href = "3.html">JavaScript</a></li>
+    </ol>
+    
+    <hr>
+    <h1>HTML</h1>
+    <hr>
+
+    <h2>html 태그</h2>
+    <p>
+        <설명><br>
+        head와 body 감싸는 최고위직 태그<br>
+        관용적으로 &lt;html&gt; 태그 위에는<br>
+        이 문서는 html이라는 뜻의
+        &lt;!doctype html&gt; 태그를 써줘야 함
+    </p>
+    <예시><br>
+    &lt;html&gt;<br>
+    &lt;head&gt;<br>
+    ...<br>
+    &lt;/head&gt;<br>
+    &lt;body&gt;<br>
+    ...<br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;
+    
+    <hr>
+    
+    <h2>title 태그</h2>
+    <p>
+        <설명><br>
+        title 태그는 웹 브라우저의 제목(title)을 지정해주는 태그이다.
+    </p>
+    <예시><br>
+    &lt;title&gt; 제목 &lt;/title&gt;
+    
+    <hr>
+  
+    <h2>head 태그</h2>
+    <p>
+        <설명><br>
+        title 태그, meta 태그 등 고위직 태그를 작성하는 부분<br>
+    </p>    
+    <예시><br>
+    &lt;head&gt;<br>
+    &lt;title&gt;<br>
+    ...<br>
+    &lt;title&gt;<br>
+    &lt;/head&gt;<br>
+
+    <hr>
+
+    <h2>body 태그</h2>
+    <p>
+        <설명><br>
+        본문 부분
+    </p>
+    <예시><br>
+    &lt;body&gt;<br>
+    ...<br>
+    &lt;/body&gt;
+    
+    <hr>
+   
+    <h2>meta 태그</h2>
+    <p>
+        <설명><br>
+        (한글이 안될 때)<br>
+        컴퓨터는 모든 정보를 0과 1로 저장을 하는데<br>
+        이때 0과 1을 어떻게 저장하는 지에 대한 여러가지 약속들이 있다<br>
+        약속 중에 하나가 utf-8인데 utf-8이 정확히 뭔진 몰라도 되고 그냥 쓰면 된다?<br>
+    </p>
+    <예시><br>
+    &lt;meta charset = "utf-8"&gt;
+    
+    <hr>
+
+    <h2>a 태그</h2>
+    <p>
+        <설명><br>
+        하이퍼링크를 걸어주는 태그<br>
+        <a href = "https://namu.wiki/w/HTML"
+        target = "_blank">HTML</a> in <strong>나무위키</strong>
+        target = "_blank" 속성을 주면 새탭으로 열린다
+    </p>
+    <예시><br>
+    &lt;a href = "naver.com" target = "_blank"&gt;HTML&lt;/a&gt;
+
+    <hr>
+      
+    <h2>h1~6 태그</h2>
+    <p>
+        <h1>h1 태그</h1>
+        <h2>h2 태그</h2>
+        <h3>h3 태그</h3>
+        <h4>h4 태그</h4>
+        <h5>h5 태그</h5>
+        <h6>h6 태그</h6>
+    </p>
+    <예시><br>
+    &lt;h1&gt; 안녕 &lt;/h1&gt;
+    
+    <hr>
+  
+    <h2>줄바꿈 태그</h2>
+    <p>
+        <설명><br>
+        줄바꿈 태그에는 br과 p가 있는데<br>
+        br은 Break의 약자로 다음 칸으로 넘어가는 줄바꿈 태그이고<br>
+        p는 Paragraph의 약자로 문단을 만들어주는 줄바꿈 태그이다<br>
+        br은 닫을 필요 없이 &lt;br&gt;한 번만 써주면 되는데<br>
+        p는 &lt;p&gt;로 열고 &lt;/p&gt;로 닫아줘야 한다
+    </p>
+    <예시><br>
+    문장 끝부분에 &lt;br&gt;를 붙여줌 <br>
+    &lt;p&gt;<br>
+    문단<br>
+    &lt;/p&gt;
+    
+    <hr>
+
+    <h2>strong 태그</h2>
+    <p>
+        설명><br>
+        strong 태그는 글씨체를 bold체로 만들어 줌<br>
+    </p>
+    <예시><br>
+    나의 꿈은 <strong>프론트엔드 개발자</strong>입니다.
+
+    <hr>
+   
+    <h2>img 태그</h2>
+    <p>
+        <설명><br>
+        이미지를 해당 html 파일안에 저장해야 함<br><br>
+        <img src = "view.jpg" width = 300>
+    </p>
+    <예시><br>
+    &lt;img src = "view.jpg" width = 200&gt;
+   
+    <hr>
+   
+    <h2>li 태그</h2>
+    <p>
+        <설명><br>
+        li는 list의 약자로 리스트를 만들어주는 태그이다<br>
+        li의 부모태그로는 ol와 ul이 있는데<br> 
+        ol은 ordered list의 약자로 순서가 정해진 리스트이고<br>
+        ul은 unordered list의 약자로 순서가 정해지지 않은 리스트이다<br>       
+    </p>
+    <예시><br>
+    &lt;ol&gt;<br>
+    &lt;li&gt;<br>
+    1.HTML<br>
+    2.CSS<br>
+    3.JavaScript<br>
+    &lt;/li&gt;<br>
+    &lt;/ol&gt;
+    <br><br>
+    &lt;ul&gt;<br>
+    &lt;li&gt;<br>
+    HTML<br>
+    CSS<br>
+    JavaScript<br>
+    &lt;/li&gt;<br>
+    &lt;/ul&gt;
+
+    <hr>
+    
+   
+</body>
+</html>
